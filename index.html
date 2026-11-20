@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="toegeun-uploader — 「퇴근한 직업들」 채널 운영자의 개인용 영상 업로드 도구 안내">
+  <title>toegeun-uploader · 앱 소개</title>
+  <style>
+    :root{color-scheme:light;font-family:system-ui,'Malgun Gothic',sans-serif;color:#2b2a33;background:#f6f5f2}*{box-sizing:border-box}body{margin:0}main{max-width:820px;margin:auto;padding:64px 24px}nav{display:flex;gap:24px;flex-wrap:wrap;margin-bottom:64px}a{color:#7a3e12;text-underline-offset:4px}h1{font-size:clamp(32px,6vw,52px);line-height:1.15;letter-spacing:-1px;margin:16px 0 24px}h2{font-size:23px;margin-top:36px}p,li{line-height:1.85}section{background:white;border:1px solid #e3ddd3;border-radius:20px;padding:28px;margin-top:24px}.label{font-size:13px;letter-spacing:2px;font-weight:700}.intro{font-size:20px;color:#55525e}footer{margin-top:40px;border-top:1px solid #e3ddd3;padding-top:24px;font-size:14px}code{overflow-wrap:anywhere}@media(max-width:500px){main{padding-top:32px}nav{margin-bottom:40px}section{padding:20px}}
+  </style>
+</head>
+<body><main>
+  <nav aria-label="주 메뉴"><a href="index.html" aria-current="page">앱 소개</a><a href="privacy.html">개인정보처리방침</a></nav>
+  <div class="label">퇴근한 직업들 · CREATOR TOOL</div>
+  <h1>toegeun-uploader</h1>
+  <p class="intro">YouTube 채널 「퇴근한 직업들」 운영자가 개인 PC에서 직접 만든 영상을 자신의 채널에 예약 업로드하기 위해 쓰는 개인용 도구입니다.</p>
+  <section>
+    <h2>하는 일</h2>
+    <ul>
+      <li>운영자가 PC에서 만든 롱폼·쇼츠 영상을 운영자 본인의 YouTube 채널에 업로드하고 공개 시각을 예약합니다.</li>
+      <li>업로드한 영상에 썸네일과 영어 제목·설명(현지화 정보)을 설정합니다.</li>
+      <li>운영자 채널의 영상 처리 상태와 조회수·시청 통계를 확인해 다음 영상 제작에 참고합니다.</li>
+    </ul>
+  </section>
+  <section>
+    <h2>누가 쓰나요</h2>
+    <p>이 도구는 채널 운영자 한 사람만 사용합니다. 다른 사람이 가입하거나 Google 계정을 연결하는 서비스가 아니며, 외부에 공개된 웹 서비스도 아닙니다.</p>
+  </section>
+  <section>
+    <h2>사용하는 Google 권한</h2>
+    <ul>
+      <li><code>youtube.upload</code> — 운영자 채널에 영상 업로드</li>
+      <li><code>youtube.readonly</code> — 채널 확인, 영상 처리 상태 조회</li>
+      <li><code>youtube.force-ssl</code> — 업로드한 영상의 썸네일·현지화 정보 수정</li>
+      <li><code>yt-analytics.readonly</code> — 운영자 채널의 조회·시청 통계 확인</li>
+    </ul>
+    <p>자세한 정보 처리 방식은 <a href="privacy.html">개인정보처리방침</a>을 참고해 주세요.</p>
+  </section>
+  <footer>
+    채널: <a href="https://www.youtube.com/@toegeunjobs">퇴근한 직업들</a> ·
+    이 앱은 YouTube API Services를 사용합니다. <a href="https://www.youtube.com/t/terms">YouTube 서비스 약관</a>
+  </footer>
+</main></body>
+</html>
